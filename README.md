@@ -53,38 +53,14 @@ Run the following command to install all necessary dependencies:
 npm install
 
 ```
-### 3. Set Up Environment Variables  
-Create a .env file at the root of the project to configure environment variables like port number and directories for data and uploads:
 
-touch .env
+### 3. Run the project on development server
 
-PORT=3000
-DATA_DIR=./data
-UPLOADS_DIR=./uploads
-
-
-PORT: The port the server will run on.
-DATA_DIR: Directory where hotel data will be stored.
-UPLOADS_DIR: Directory where images will be stored.
-
-
-### 4. Build the Project  
-
-   npm run build
-
-
-### 5. Run the Application  
-
-   npm start
-
-By default, the server will be available at http://localhost:3000.  
-
-Running the Application in Development Mode  
-
+```
 npm run dev
+```
 
-
-This will start the server with nodemon, which watches for file changes and restarts the server automatically.  
+By default, the server will be available at http://localhost:3001.  
 
 ### API Endpoints  
 #### 1. POST /hotel 

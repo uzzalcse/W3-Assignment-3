@@ -36,16 +36,23 @@ ESLint: For enforcing coding conventions
 ### 1. Setup Instructions  
 Follow these steps to set up the project locally:
 
+```
+git clone https://github.com/uzzalcse/W3-Assignment-3.git
 
-git clone https://github.com/uzzalcse/W3-Assignment-3.git   
-cd W3-Assignment-3
+```
 
+Go to the directory
+```
+cd W3-Assignment-3/hotel-api
+```
 
 ### 2. Install Dependencies
 
 Run the following command to install all necessary dependencies:  
+```
 npm install
 
+```
 ### 3. Set Up Environment Variables  
 Create a .env file at the root of the project to configure environment variables like port number and directories for data and uploads:
 
